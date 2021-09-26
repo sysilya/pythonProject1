@@ -5,4 +5,3 @@ EXPOSE 8080
 RUN rm -rf /var/www/html/*
 ADD index.html /var/www/html/
 CMD ["nginx", "-g", daemon off;"
-gg
